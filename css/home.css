@@ -1,0 +1,122 @@
+body {
+  font-family: "Noto Sans TC", sans-serif;
+}
+#title {
+  color: #16a596;
+  font-weight: 900;
+  font-size: 48px;
+}
+.nav-link {
+  color: black !important;
+}
+.carousel-item {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-size: 100% !important;
+}
+.h1title {
+  color: #303cb6;
+  font-size: 1rem;
+  font-weight: normal;
+  border-bottom: 1px #303cb6 dotted;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.stitle {
+  color: #303cb6;
+  font-weight: 600;
+}
+.aboutList {
+  font-weight: 600;
+}
+.footer {
+  color: #fff;
+  background-color: #262626;
+  width: 100%;
+}
+.clearfix {
+  outline: none;
+  list-style-type: none;
+}
+.clearfix {
+  display: flex;
+}
+.lineIcon {
+  width: 30px;
+  height: 30px;
+}
+.fa-2x {
+  margin-left: 5px;
+}
+.cLocation {
+  background-color: #8bcdcd;
+}
+.cLocations {
+  background-color: #9ddfd3;
+}
+.postions {
+  color: #303cb6;
+}
+.fb {
+  position: fixed;
+  right: 1%;
+  top: 10%;
+  z-index: 1000;
+  transform: scale(0.8);
+}
+.phone {
+  position: fixed;
+  right: 1%;
+  top: 20%;
+  z-index: 1000;
+  transform: scale(0.8);
+}
+.lineFix {
+  position: fixed;
+  right: 1%;
+  top: 30%;
+  z-index: 1000;
+  transform: scale(0.8);
+}
+.mainWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main:hover {
+  /* border-radius: 120px 120px 120px 120px; */
+  /* transition-duration: 0.7s; */
+}
+.mainIten {
+  margin: 5px;
+}
+.mainImg {
+  border: 1px solid gray;
+  padding: 6px 6px 6px 6px;
+}
+.mainImg:hover {
+  border-radius: 120px 120px 120px 120px;
+  transition-duration: 0.7s;
+  border: 1px solid gray;
+  padding: 6px 6px 6px 6px;
+}
+.spFont {
+  color: #303cb6;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+/* @media (min-width: 800px) {
+  .mainImg {
+    height: 180px;
+    height: 180px;
+  }
+}
+@media (min-width: 600px) {
+  .mainImg {
+    width: 150px;
+    height: 150px;
+  }
+} */

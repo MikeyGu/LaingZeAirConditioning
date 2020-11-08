@@ -109,13 +109,12 @@ body {
   font-weight: 900;
 }
 
-/* @media (min-width: 800px) {
-  .mainImg {
-    height: 180px;
-    height: 180px;
+/* @media (max-width: 768px) {
+  .carousel-control-prev {
+    height: 30%;
   }
-}
-@media (min-width: 600px) {
+} */
+/* @media (min-width: 600px) {
   .mainImg {
     width: 150px;
     height: 150px;

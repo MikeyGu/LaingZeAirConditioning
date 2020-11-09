@@ -3,7 +3,7 @@ let data = {
     title: "Vue.js",
     time:"Date.now",
   };
-
+  var time = Date.now.toString();
 let vm = new Vue({
     el: "#app",
     data: data,

@@ -37,6 +37,8 @@ body {
 .footer {
   color: #fff;
   background-color: #262626;
+}
+#fotColor{
   width: 100%;
 }
 .clearfix {

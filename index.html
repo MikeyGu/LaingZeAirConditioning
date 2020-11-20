@@ -50,8 +50,13 @@
                                     廠商報修
                                 </button>
                             </a>
+                            <a class="dropdown-item" href="#">
+                                <button type="button" class="btn " data-toggle="modal" data-target=".changItem">
+                                    維修報價
+                                </button>
+                            </a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">維修報價</a>
+
                         </div>
                     </li>
                 </ul>
@@ -82,6 +87,7 @@
                         </div>
                     </div>
                 </div>
+
                 <!-- 廠商報修 -->
                 <div class="modal fade Repair" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
                     aria-hidden="true">
@@ -101,6 +107,41 @@
                                 <textarea class="form-control col-md-9" id="exampleFormControlTextarea1" rows="10"
                                     style="margin: auto auto 20px auto;"></textarea>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 維修報價 -->
+                <div class="modal fade changItem" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg from" id="app">
+
+                        <div class="modal-content">
+                            <h1 style="margin: auto;">報價系統</h1>
+                            <hr>
+                            <div class="from-group">
+                                <label class="control-label col-md-2" for="">Email：</label>
+                                <input type="text" name="emailid" id="">
+                            </div>
+                            <div class="from-group">
+                                <label class="control-label col-md-2" for="">報價廠商：</label>
+                                <input class="from-contronl col-md-8">
+                            </div>
+                            <div class="from-group">
+                                <label class="control-label col-md-2" for="">預計日期：</label>
+                                <input id="fortime" type="datetime" class="from-contronl col-md-8" value="2020">
+                            </div>
+                            <div class="from-group">
+                                <label class="control-label col-md-2" for="">報價項目：</label>
+                                <select name="changFor" id="">
+                                    <option value="送風機風鼓">送風機風鼓</option>
+                                    <option value="空調保養">空調保養</option>
+                                    <option value="水塔清洗">水塔清洗</option>
+                                    <option value="水電工程">水電工程</option>
+                                    <option value="冰水主機">冰水主機</option>
+                                </select>
+                            </div>
+
                         </div>
                     </div>
                 </div>
